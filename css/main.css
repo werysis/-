@@ -268,7 +268,40 @@ button{
 	text-decoration:none;
 }
 #men,#gerl{
-	padding:5% 1% 8% 3%;
+	padding:5% 1% 8% 6%;
+}
+#men img,#gerl img {
+	margin-right:8%;
+	
+}
+.left_s_menu {
+  font-size: 16px;
+  font-family: "Neo Sans Cyr";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 0.5;
+  font-weight: 500;
+	padding-left:10%;
+  
+}
+.left_s_menu.active {
+	color: #fff;
+}
+.navbar-collapse{
+	padding:0;
+}
+
+ #left_nav_navbar li{
+	width:100%;
+	
+}
+#men a,#gerl a{
+	text-decoration:none;
+  font-size: 14px;
+  font-family: "Neo Sans Cyr";
+  color: rgb(0, 0, 0);
+  line-height: 2.286;
+  font-weight: 500;
 }
 #men{
 background-color: rgb(255, 255, 255);
