@@ -203,7 +203,18 @@ button{
 }
 
 .shoping {
-	height:42%;
+	height:45px;
+	
+}
+.shadow {
+	margin-left:26px;
+	width:78%;
+	height:65%;
+	-webkit-transform: skew(30deg); -moz-transform: skew(30deg); -o-transform: skew(30deg); background:#f3f3f3;
+}
+#knopka {
+	margin-left:20px;
+	
 }
 #bye {
 	background-color:rgb(255, 200, 200);
@@ -653,7 +664,6 @@ background-repeat: no-repeat;
 }
 #forma1 {
 	margin-top:1%;
-	margin-bottom:2.5%;
 	text-align:center;
   font-size: 24px;
   font-family: "ProximaNova";
@@ -662,7 +672,7 @@ background-repeat: no-repeat;
 }
 #forma2, #forma3, #forma4 {
 	margin-top:3%;
-	margin-bottom:2.5%;
+	margin-bottom:1.5%;
 }
 #forma2 input, #forma3 input{
 	width:100%;
@@ -680,9 +690,6 @@ background-repeat: no-repeat;
 	text-align:center;
 	height:25px;
 	width:120px;
--webkit-box-shadow: 6px 7px 5px 5px #f3f3f3;
--moz-box-shadow: 6px 7px 5px 5px #f3f3f3;
-box-shadow: 6px 7px 5px 5px #f3f3f3;
 }
 	
 #polosa:hover {
