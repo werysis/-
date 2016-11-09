@@ -897,7 +897,9 @@ text-align:left;
   color: rgba(161, 161, 161, 0.6);
 }
 
-
+.pointer {
+	cursor: pointer;
+}
 
 /* end product box */
 #left2_menu {
