@@ -7,7 +7,13 @@
   font-weight: 400;
   font-style: normal;
 }
-   
+@font-face {
+  font-family: 'MyriadPro';
+  src: url("../fotnts/MyriadPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
    
    html,body{
 	padding:0;
@@ -46,13 +52,30 @@ body {
 /* ==========================================================================
    header  Styling
    ========================================================================== */
-#top_header { 
-	/*width:100%;*/
+.summa{
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  padding-top:25%;
+}
+.towar {
+  font-size: 12px;
+  font-family: "Myriad Pro";
+  color: rgb(153, 153, 153);
+  line-height: 1.2;
+  text-align: center;
+}
+.corzina{
+	padding:10% 0 0 11%;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+   
+   #top_header { 
 	background-color: rgb(255, 255, 255);
-	/*height:auto;*/
 }
 #top_header > [class^="col-"]{
-  /*padding-left: 0;*/
   padding: 0;
 }
 #top_header{
@@ -60,6 +83,11 @@ body {
 }
 #logo{
   width: 170px;
+  
+}
+.corzina{
+	padding:10% 0 0 11%;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 #logo img {
   width: 100%;
@@ -173,12 +201,7 @@ button{
 	height:58%;
 	margin-bottom:5%;
 }
-#shopcart img{
-	float:right;
-	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-	margin:10% 10% 5% 15%;
-	position: relative;
-}
+
 .shoping {
 	height:42%;
 }
@@ -1065,6 +1088,9 @@ height:121px;
 }
 #top_header,#menu_top,#schopping_cart,#logo {
 	height:auto;
+}
+.cont{
+	width:100%;
 }
 
 }
