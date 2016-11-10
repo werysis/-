@@ -14,11 +14,11 @@
   font-style: normal;
 }
 
-   
+
    html,body{
 	padding:0;
 	margin:0;
-} 
+}
 a {
 	text-decoration:none;
 }
@@ -71,8 +71,8 @@ body {
 	padding:10% 0 0 11%;
 	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
-   
-   #top_header { 
+
+   #top_header {
 	background-color: rgb(255, 255, 255);
 }
 #top_header > [class^="col-"]{
@@ -83,7 +83,7 @@ body {
 }
 #logo{
   width: 170px;
-  
+
 }
 .corzina{
 	padding:10% 0 0 11%;
@@ -204,7 +204,7 @@ button{
 
 .shoping {
 	height:45px;
-	
+
 }
 .shadow {
 	margin-left:26px;
@@ -214,7 +214,7 @@ button{
 }
 #knopka {
 	margin-left:20px;
-	
+
 }
 #bye {
 	background-color:rgb(255, 200, 200);
@@ -283,17 +283,17 @@ button{
 }
 #men img,#gerl img {
 	margin-right:8%;
-	
+
 }
 .left_s_menu {
   font-size: 16px;
   font-family: "Neo Sans Cyr";
   color: rgb(0, 0, 0);
   text-transform: uppercase;
-  line-height: 0.5;
+  line-height: 0.3;
   font-weight: 500;
 	padding-left:10%;
-  
+
 }
 .left_s_menu.active {
 	color: #fff;
@@ -304,7 +304,7 @@ button{
 
  #left_nav_navbar li{
 	width:100%;
-	
+
 }
 #men a,#gerl a{
 	text-decoration:none;
@@ -321,7 +321,7 @@ background-color: rgb(255, 255, 255);
 	background-color: rgb(161, 231, 250);
 }
  #navbarCollapse2 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active {
-	background-color: #000000; 
+	background-color: #000000;
 	color:#fff;
  }
 .cont{
@@ -387,7 +387,7 @@ margin-right:17%;
 	width:100%;
 	padding:0;
 	margin-bottom:30px;
-	
+
 	padding:0px;
 }
 #about_img{
@@ -395,7 +395,7 @@ margin-right:17%;
 }
 #about_img img{
 	width:100%;
-	
+
 }
 
 #about_text h2{
@@ -410,7 +410,7 @@ margin-right:17%;
     width: 197px;
     height: 10px;
     background: url(../img/t-left.png) no-repeat center;
-   
+
     margin-right: 15px;
     display: inline-block;
 }
@@ -419,7 +419,7 @@ margin-right:17%;
     width: 197px;
     height: 10px;
     background: url(../img/t-left.png) no-repeat center;
-    
+
     margin-left: 15px;
     display: inline-block;
 }
@@ -594,13 +594,13 @@ background-repeat: no-repeat;
 #vizitka_image7{
 	background:  url(../img/3.png);
 	background-repeat: no-repeat;
-	
+
 }
 #vizitka_image7:hover {
 	background:  url(../img/13.png);
 	background-repeat: no-repeat;
 	border: 3px solid #ffc8c8;
-	
+
 }
 #vizitka_image8{
 	background:  url(../img/4.png);
@@ -641,7 +641,7 @@ background-repeat: no-repeat;
 #vizitka_image12{
 	background:  url(../img/4.png);
 	background-repeat: no-repeat;
-	
+
 }
 #vizitka_image12:hover {
 	background:  url(../img/14.png);
@@ -660,7 +660,7 @@ background-repeat: no-repeat;
 #forma{
 	background:rgb(255, 255, 255);
 	margin-bottom:30px;
-	
+
 }
 #forma1 {
 	margin-top:1%;
@@ -691,7 +691,7 @@ background-repeat: no-repeat;
 	height:25px;
 	width:120px;
 }
-	
+
 #polosa:hover {
 	background-image: url(../img/2blue.png);
 }
@@ -760,8 +760,46 @@ background-repeat: no-repeat;
 .circle:hover {
 	background:  rgb(185, 255, 229);
 	border: 3px solid #fff;
-
 }
+
+/*-------------------------------*/
+#firstElem div {
+  background-image: url('../img/Layer223.png');
+  background-repeat: no-repeat;
+  height: 48px; /*height picture*/
+  margin: 0 36%;
+}
+#firstElem:hover div {
+  background-image: url('../img/Layer211.png');
+}
+#secontElem div {
+  background-image: url('../img/Layer24.png');
+  background-repeat: no-repeat;
+  height: 48px; /*height picture*/
+  margin: 0 36%;
+}
+#secontElem:hover div {
+  background-image: url('../img/Layer244.png');
+}
+#thirdElem div {
+  background-image: url('../img/Layer 25.png');
+  background-repeat: no-repeat;
+  height: 49px; /*height picture*/
+  margin: 0 32%;
+}
+#thirdElem:hover div {
+  background-image: url('../img/Layer 255.png');
+}
+#fourthElem div {
+  background-image: url('../img/Layer 26.png');
+  background-repeat: no-repeat;
+  height: 48px; /*height picture*/
+  margin: 0 36%;
+}
+#fourthElem:hover div {
+  background-image: url('../img/Layer 266.png');
+}
+/*-----------------------------*/
 
 /* ==========================================================================
     footer Styling
@@ -781,8 +819,6 @@ background-repeat: no-repeat;
   font-size: 16px;
   color: rgb(255, 255, 255);
   line-height: 1.2;
-  
-  margin-bottom:6%;
   margin-left:14%;
 
 }
@@ -853,7 +889,7 @@ background-repeat: no-repeat;
 	width:48px;
 	display:inline-block;
 	float:right;
-	
+
 }
 #viza{
 	background-image: url("../img/socio/Visa.png");
@@ -902,23 +938,23 @@ text-align:left;
 /* feature box
 ----------------------------------------------------------------------------- */
 .feature_box{
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 .feature_box h4{
 	margin:0 0 10px 0;
-	font-weight:normal;	
+	font-weight:normal;
 }
-.feature_box img{	
+.feature_box img{
 	margin-bottom:10px;
 	background-color:#eb4800;
 	padding:25px;
 	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;	
+	-moz-border-radius: 50%;
 	border-radius: 50%;
 }
-.feature_box .service{	
+.feature_box .service{
 	margin-top:3px;
-	padding:3px;	
+	padding:3px;
 	text-align:center;
 }
 .feature_box .service:hover{
@@ -930,7 +966,7 @@ text-align:left;
 	transition: all 0.7s;
 	transform: rorate(6.28rad);
 }
-.feature_box .service div{	
+.feature_box .service div{
 	padding:5px 5px 0 5px;
 }
 /* end feature box */
@@ -939,7 +975,7 @@ text-align:left;
 ----------------------------------------------------------------------------- */
 .product-box{
 	text-align:left;
-	padding-bottom:25px;
+	padding-bottom:40px;
 	position: relative;
 	background-color:#fff;
 	border-radius: 4px;
@@ -947,8 +983,13 @@ text-align:left;
 	-webkit-border-radius: 4px;
 	margin-right: 2%
 }
-
-
+.f_text {
+	margin-top:13px;
+}
+.sdvig {
+	margin-top:8%;
+	margin-bottom:5%;
+}
 .product-box img{
 	overflow:hidden;
 }
@@ -982,7 +1023,7 @@ text-align:left;
 }
 .span12 {
 	background:#fff;
-	margin-left:2%;
+	//margin-left:2%;
 	padding-bottom: 5%;
 }
 .active_item li{
@@ -999,10 +1040,10 @@ h4.title .right{
 	padding:0;
 }
 .thumbnails{
-	margin-right:2%;
+	margin-right:1%;
 	padding:0;
-	margin-left:2%;
-	
+	//margin-left:2%;
+
 }
 .thumbnails li {
 	padding:1%;
@@ -1021,10 +1062,10 @@ h4.title .right{
 	margin-left:3%;
 	margin-top:2%;
 	font-size: 24px;
-  
+
   color: rgb(0, 0, 0);
   line-height: 1.2;
-  
+
 }
 #left2_menu {
 	padding:0;
@@ -1039,7 +1080,7 @@ h4.title .right{
 }
 #price_kom {
 	display:inline-block;
-	
+
 }
 /* ==========================================================================
     responsive style
@@ -1058,7 +1099,7 @@ height:121px;
 }
 #menu_icon {
 	text-align:center;
-	
+
 }
 #menu_icon li{
 	display:block;
@@ -1091,7 +1132,7 @@ height:121px;
 }
 #header_left_but{
 	border-color: #ed1515;
-}	
+}
 
 /**/
 
@@ -1106,7 +1147,7 @@ height:121px;
 	padding-left: 17%;
 	padding-top:2%;
 	padding-bottom:2%;
-} 
+}
 /**/
 #idea{
 	background-image: none;
@@ -1122,7 +1163,7 @@ height:121px;
 #footer{
 	text-align:center;
 
-	
+
 }
 #footer h4 {
 	margin-left:0;
@@ -1141,6 +1182,17 @@ height:121px;
 }
 .cont{
 	width:100%;
+}
+.f_text {
+	margin-top:5px;
+}
+.sdvig {
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.product-box{
+	padding-bottom: 90px;
+	padding-left: 5%;
 }
 
 }
@@ -1172,7 +1224,7 @@ height:121px;
 }
 #menu_icon {
 	text-align:center;
-	
+
 }
 #menu_icon li{
 	display:inline-block;
