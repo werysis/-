@@ -1,4 +1,4 @@
-function changeImage() {
+/*function changeImage() {
     var firstElem = document.getElementById('firstElem');
     var wrapperFirstElem = document.getElementById('firstWrapper');
 
@@ -16,3 +16,5 @@ function changeImage() {
 }
 
 changeImage();
+*/
+//алетернативная версия
